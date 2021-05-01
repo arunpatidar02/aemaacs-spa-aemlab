@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: AEMLAB SPA - UI config
-Content-Package-Roots: /apps/aem-spa/osgiconfig
+Content-Package-Roots: /apps/aemlab-spa/install,/apps/aemlab-spa/osgic
+ onfig
 Implementation-Version: 1.0.0-SNAPSHOT
 Build-Jdk-Spec: 1.8
 Content-Package-Type: container

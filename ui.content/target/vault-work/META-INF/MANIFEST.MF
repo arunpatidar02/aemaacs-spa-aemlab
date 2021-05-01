@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: AEMLAB SPA - UI content
-Content-Package-Roots: /conf/aem-spa,/content/aem-spa,/content/dam/aem
- -spa/asset.jpg,/content/experience-fragments/aem-spa
+Content-Package-Roots: /conf/aemlab-spa,/content/aemlab-spa,/content/d
+ am/aemlab-spa/asset.jpg,/content/experience-fragments/aemlab-spa
 Implementation-Version: 1.0.0-SNAPSHOT
 Content-Package-Dependencies-Locations: com.community.aemlab.spa:aemla
  b-spa.ui.apps:1.0.0-SNAPSHOT=maven:com.community.aemlab.spa:aemlab-sp

@@ -41,19 +41,19 @@ import {
     ListV2,ListV2IsEmptyFn
 } from '@adobe/aem-core-components-react-base';
 
-MapTo('aem-spa/components/download')(DownloadV1, {isEmpty: DownloadV1IsEmptyFn});
-MapTo('aem-spa/components/list')(ListV2, {isEmpty: ListV2IsEmptyFn});
-MapTo('aem-spa/components/separator')(SeparatorV1, {isEmpty: SeparatorV1IsEmptyFn});
-MapTo('aem-spa/components/breadcrumb')(BreadCrumbV2, {isEmpty: BreadCrumbV2IsEmptyFn});
-MapTo('aem-spa/components/button')(ButtonV1, {isEmpty: ButtonV1IsEmptyFn});
-MapTo('aem-spa/components/teaser')(TeaserV1, {isEmpty: TeaserV1IsEmptyFn});
-MapTo('aem-spa/components/image')(ImageV2, {isEmpty: ImageV2IsEmptyFn});
-MapTo('aem-spa/components/title')(TitleV2, {isEmpty: TitleV2IsEmptyFn});
+MapTo('aemlab-spa/components/download')(DownloadV1, {isEmpty: DownloadV1IsEmptyFn});
+MapTo('aemlab-spa/components/list')(ListV2, {isEmpty: ListV2IsEmptyFn});
+MapTo('aemlab-spa/components/separator')(SeparatorV1, {isEmpty: SeparatorV1IsEmptyFn});
+MapTo('aemlab-spa/components/breadcrumb')(BreadCrumbV2, {isEmpty: BreadCrumbV2IsEmptyFn});
+MapTo('aemlab-spa/components/button')(ButtonV1, {isEmpty: ButtonV1IsEmptyFn});
+MapTo('aemlab-spa/components/teaser')(TeaserV1, {isEmpty: TeaserV1IsEmptyFn});
+MapTo('aemlab-spa/components/image')(ImageV2, {isEmpty: ImageV2IsEmptyFn});
+MapTo('aemlab-spa/components/title')(TitleV2, {isEmpty: TitleV2IsEmptyFn});
 
-MapTo('aem-spa/components/navigation')(NavigationV1);
-MapTo('aem-spa/components/languagenavigation')(LanguageNavigationV1);
+MapTo('aemlab-spa/components/navigation')(NavigationV1);
+MapTo('aemlab-spa/components/languagenavigation')(LanguageNavigationV1);
 
-MapTo('aem-spa/components/tabs')(TabsV1, {isEmpty: TabsV1IsEmptyFn});
-MapTo('aem-spa/components/accordion')(AccordionV1, {isEmpty: AccordionV1IsEmptyFn});
-MapTo('aem-spa/components/carousel')(CarouselV1, {isEmpty: CarouselV1IsEmptyFn});
-MapTo('aem-spa/components/container')(ContainerV1, {isEmpty: ContainerV1IsEmptyFn});
+MapTo('aemlab-spa/components/tabs')(TabsV1, {isEmpty: TabsV1IsEmptyFn});
+MapTo('aemlab-spa/components/accordion')(AccordionV1, {isEmpty: AccordionV1IsEmptyFn});
+MapTo('aemlab-spa/components/carousel')(CarouselV1, {isEmpty: CarouselV1IsEmptyFn});
+MapTo('aemlab-spa/components/container')(ContainerV1, {isEmpty: ContainerV1IsEmptyFn});

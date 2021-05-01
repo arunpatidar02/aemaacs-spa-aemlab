@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: AEMLAB SPA - All
-Content-Package-Roots: /apps/aem-spa-packages,/apps/aem-spa-vendor-pac
- kages
+Content-Package-Roots: /apps/aemlab-spa-packages,/apps/aemlab-spa-vend
+ or-packages
 Implementation-Version: 1.0.0-SNAPSHOT
 Build-Jdk-Spec: 1.8
 Content-Package-Type: container

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/etc.clientlibs/aem-spa/clientlibs/clientlib-react/resources/precache-manifest.a7f94028745694aee0bddcf22c36ff8a.js"
+  "/etc.clientlibs/aemlab-spa/clientlibs/clientlib-react/resources/precache-manifest.6ada68434a3e5e06558394f84d305350.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/etc.clientlibs/aem-spa/clientlibs/clientlib-react/resources/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/etc.clientlibs/aemlab-spa/clientlibs/clientlib-react/resources/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });

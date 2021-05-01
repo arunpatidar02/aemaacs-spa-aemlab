@@ -59,7 +59,7 @@ class Text extends Component {
   }
 }
 
-export default MapTo('aem-spa/components/text')(
+export default MapTo('aemlab-spa/components/text')(
   Text,
   TextEditConfig
 );

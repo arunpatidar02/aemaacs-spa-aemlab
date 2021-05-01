@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: AEMLAB SPA - UI apps
-Content-Package-Roots: /apps/aem-spa/clientlibs,/apps/aem-spa/componen
- ts,/apps/aem-spa/i18n,/apps/aem-spa/install
+Content-Package-Roots: /apps/aemlab-spa/clientlibs,/apps/aemlab-spa/co
+ mponents,/apps/aemlab-spa/i18n
 Implementation-Version: 1.0.0-SNAPSHOT
 Import-Package: com.adobe.aem.spa.project.core.models;version="[1.1.0,
  2.0.0)",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"

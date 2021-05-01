@@ -28,5 +28,5 @@ const ExperienceFragmentVariationConfig = {
     }
 };
 
-MapTo('aem-spa/components/experiencefragment')(withComponentMappingContext(Container), ExperienceFragmentVariationConfig);
+MapTo('aemlab-spa/components/experiencefragment')(withComponentMappingContext(Container), ExperienceFragmentVariationConfig);
 

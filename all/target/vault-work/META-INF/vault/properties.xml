@@ -4,7 +4,7 @@
 <comment>AEMLAB SPA - All</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aemlab-spa.all</entry>
-<entry key="created">2021-05-01T20:30:22.427Z</entry>
+<entry key="created">2021-05-01T21:23:41.102Z</entry>
 <entry key="groupId">com.community.aemlab.spa</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
 <entry key="packageType">container</entry>

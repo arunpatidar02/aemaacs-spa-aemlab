@@ -30,5 +30,5 @@ const ContainerConfig = {
 };
 
 
-MapTo('aem-spa/components/container')(withComponentMappingContext(AllowedComponentsContainer), ContainerConfig);
+MapTo('aemlab-spa/components/container')(withComponentMappingContext(AllowedComponentsContainer), ContainerConfig);
 

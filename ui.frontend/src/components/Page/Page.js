@@ -24,7 +24,7 @@ import { withRoute } from '../RouteHelper/RouteHelper';
 require('./Page.css');
 
 // This component is a variant of a Page component mapped to the
-// "aem-spa/components/page" resource type. For now, the rendering is
+// "aemlab-spa/components/page" resource type. For now, the rendering is
 // the same as the RootPage; this is more for illustration purposes
 class AppPage extends Page {
   get containerProps() {
@@ -35,6 +35,6 @@ class AppPage extends Page {
   }
 }
 
-export default MapTo('aem-spa/components/page')(
+export default MapTo('aemlab-spa/components/page')(
   withComponentMappingContext(withRoute(AppPage))
 );

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: AEMLAB SPA - Repository Structure Package
-Content-Package-Roots: /apps,/apps/aem-spa,/apps/cq,/apps/dam,/apps/ms
- m,/apps/settings,/apps/sling,/apps/wcm,/content/dam/aem-spa
+Content-Package-Roots: /apps,/apps/aemlab-spa,/apps/cq,/apps/dam,/apps
+ /msm,/apps/settings,/apps/sling,/apps/wcm,/content/dam/aemlab-spa
 Implementation-Version: 1.0.0-SNAPSHOT
 Build-Jdk-Spec: 1.8
 Content-Package-Type: mixed
