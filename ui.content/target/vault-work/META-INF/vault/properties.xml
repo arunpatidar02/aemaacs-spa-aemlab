@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEMLAB SPA - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">aemlab-spa.ui.content</entry>
+<entry key="acHandling">merge</entry>
+<entry key="created">2021-05-01T20:14:51.289Z</entry>
+<entry key="groupId">com.community.aemlab.spa</entry>
+<entry key="dependencies-locations">com.community.aemlab.spa:aemlab-spa.ui.apps:1.0.0-SNAPSHOT=maven:com.community.aemlab.spa:aemlab-spa.ui.apps:1.0.0-SNAPSHOT:zip</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.community.aemlab.spa:aemlab-spa.ui.apps:1.0.0-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="group">com.community.aemlab.spa</entry>
+<entry key="description">UI content package for AEMLAB SPA</entry>
+<entry key="artifactId">aemlab-spa.ui.content</entry>
+</properties>

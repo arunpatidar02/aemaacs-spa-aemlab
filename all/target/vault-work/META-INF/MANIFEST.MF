@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: AEMLAB SPA - All
+Content-Package-Roots: /apps/aem-spa-packages,/apps/aem-spa-vendor-pac
+ kages
+Implementation-Version: 1.0.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: container
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.community.aemlab.spa:aemlab-spa.all:1.0.0-SNAP
+ SHOT
+Content-Package-Description: All content package for AEMLAB SPA
+

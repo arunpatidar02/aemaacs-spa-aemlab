@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-Category: aemlab
+Bundle-Description: Core bundle for AEMLAB SPA
+Bundle-ManifestVersion: 2
+Bundle-Name: AEMLAB SPA - Core
+Bundle-SymbolicName: aemlab-spa.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.aemlab.core.models;version="1.0"
+Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
+ rsion="[1.29,2)",org.apache.sling.api.resource;version="[2.12,3)",org
+ .apache.sling.models.annotations;version="[1.5,2)",org.apache.sling.m
+ odels.annotations.injectorspecific;version="[1.1,2)"
+Private-Package: com.community.aemlab.spa.core.models
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Model-Classes: com.community.aemlab.spa.core.models.HelloWorldMo
+ del
+

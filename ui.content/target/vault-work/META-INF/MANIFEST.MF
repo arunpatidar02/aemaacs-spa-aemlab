@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: AEMLAB SPA - UI content
+Content-Package-Roots: /conf/aem-spa,/content/aem-spa,/content/dam/aem
+ -spa/asset.jpg,/content/experience-fragments/aem-spa
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Dependencies-Locations: com.community.aemlab.spa:aemla
+ b-spa.ui.apps:1.0.0-SNAPSHOT=maven:com.community.aemlab.spa:aemlab-sp
+ a.ui.apps:1.0.0-SNAPSHOT:zip
+Content-Package-Dependencies: com.community.aemlab.spa:aemlab-spa.ui.a
+ pps:1.0.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: content
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.community.aemlab.spa:aemlab-spa.ui.content:1.0
+ .0-SNAPSHOT
+Content-Package-Description: UI content package for AEMLAB SPA
+
