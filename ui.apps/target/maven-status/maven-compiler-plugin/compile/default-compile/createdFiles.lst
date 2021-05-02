@@ -2,6 +2,8 @@ org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/components/page/custom
 org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/components/xfpage/customheaderlibs__002e__html.class
 org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/clientlibs/clientlib__002d__react/resources/index__002e__html.class
 org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/components/helloworld/helloworld__002e__html.class
+org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/components/custom/cards/card__002d__item/card__002d__item__002e__html.class
 org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/components/page/customheaderlibs__002e__html.class
 org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/components/xfpage/content__002e__html.class
 org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/components/xfpage/customfooterlibs__002e__html.class
+org/apache/sling/scripting/sightly/apps/aemlab__002d__spa/components/custom/cards/cards__002e__html.class

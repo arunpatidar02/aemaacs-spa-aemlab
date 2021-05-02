@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aemlab-spa.ui.content</entry>
 <entry key="acHandling">merge</entry>
-<entry key="created">2021-05-02T21:50:52.254Z</entry>
+<entry key="created">2021-05-02T23:03:09.613Z</entry>
 <entry key="groupId">com.community.aemlab.spa</entry>
 <entry key="dependencies-locations">com.community.aemlab.spa:aemlab-spa.ui.apps:1.0.0-SNAPSHOT=maven:com.community.aemlab.spa:aemlab-spa.ui.apps:1.0.0-SNAPSHOT:zip</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>

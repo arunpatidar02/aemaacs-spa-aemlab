@@ -4,7 +4,7 @@
 <comment>AEMLAB SPA - UI config</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aemlab-spa.ui.config</entry>
-<entry key="created">2021-05-02T21:13:42.152Z</entry>
+<entry key="created">2021-05-02T23:03:07.329Z</entry>
 <entry key="groupId">com.community.aemlab.spa</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
 <entry key="packageType">container</entry>

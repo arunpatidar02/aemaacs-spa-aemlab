@@ -116,6 +116,10 @@ dist/
 # Frontend Maven Plugin
 node/
 
+
 # Tests
 coverage/
 
+# AEM
+**/src/main/content/jcr_root/apps/aemlab-spa/clientlibs/clientlib-react/
+**/target/*
