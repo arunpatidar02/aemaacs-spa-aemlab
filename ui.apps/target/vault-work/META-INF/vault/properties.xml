@@ -4,7 +4,7 @@
 <comment>AEMLAB SPA - UI apps</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aemlab-spa.ui.apps</entry>
-<entry key="created">2021-05-01T21:40:40.809Z</entry>
+<entry key="created">2021-05-02T21:13:41.353Z</entry>
 <entry key="groupId">com.community.aemlab.spa</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
 <entry key="packageType">application</entry>
