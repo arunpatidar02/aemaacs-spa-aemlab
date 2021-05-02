@@ -122,4 +122,5 @@ coverage/
 
 # AEM
 **/src/main/content/jcr_root/apps/aemlab-spa/clientlibs/clientlib-react/
-**/target/*
+**/target/
+**/target/vault-work/META-INF/vault/properties.xml

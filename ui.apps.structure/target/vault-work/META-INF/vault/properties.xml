@@ -4,7 +4,7 @@
 <comment>AEMLAB SPA - Repository Structure Package</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aemlab-spa.ui.apps.structure</entry>
-<entry key="created">2021-05-02T23:03:03.522Z</entry>
+<entry key="created">2021-05-02T23:18:44.622Z</entry>
 <entry key="groupId">com.community.aemlab.spa</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
 <entry key="packageType">mixed</entry>
