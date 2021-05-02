@@ -9,7 +9,6 @@ tmp/
 *.tmp
 *.bak
 *.swp
-*~.nib
 local.properties
 .settings/
 .loadpath
@@ -29,7 +28,7 @@ npm-debug.log*
 coverage/
 npm-debug*.*
 .vscode/
-
+*~.nib
 
 
 # Eclipse Core
@@ -72,6 +71,13 @@ npm-debug*.*
 *.war
 *.ear
 */src/main/content/jcr_root/META-INF/*
+*/src/main/content/jcr_root/apps/aemlab-spa/clientlibs/clientlib-react/*
+*/target/*
+*/.settings/*
+*/.classpath
+*/.project
+archetype.properties
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -119,8 +125,3 @@ node/
 
 # Tests
 coverage/
-
-# AEM
-**/src/main/content/jcr_root/apps/aemlab-spa/clientlibs/clientlib-react/
-**/target/
-**/target/vault-work/META-INF/vault/properties.xml
