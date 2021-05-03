@@ -17,6 +17,8 @@
 import './Page/Page';
 import './Text/Text';
 import './Custom/Custom';
+import './CardItem/CardItem';
+import './Cards/Cards';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 

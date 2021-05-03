@@ -10,11 +10,11 @@
   *
   * @type EditConfig
   */
- const TextEditConfig = {
+ const CardsEditConfig = {
    emptyLabel: 'Cards',
  
    isEmpty: function(props) {
-     return !props || !props.text || props.text.trim().length < 1;
+    return !props || !props.cardTitle;
    }
  };
  
@@ -23,29 +23,25 @@
   */
 
  class Cards extends Component {
-   get richTextContent() {
-     return (
-       <div
-         id={extractModelId(this.props.cqPath)}
-         data-rte-editelement
-         dangerouslySetInnerHTML={{
-           __html: DOMPurify.sanitize(this.props.text)
-         }}
-       />
-     );
-   }
- 
-   get textContent() {
-     return <div>{this.props.text}</div>;
-   }
- 
-   render() {
-     return this.props.richText ? this.richTextContent : this.textContent;
-   }
+    get title() {
+        return <div>{this.props.cardTitle}</div>;
+      }
+      get description() {
+        return <div>{this.props.cardDescription}</div>;
+      }
+    
+      render() {
+        return (
+    <>
+    <div>{this.title}</div>
+    <div>{this.description}</div>
+    </>
+        );
+      }
  }
  
  export default MapTo('aemlab-spa/components/custom/cards')(
-   Text,
-   TextEditConfig
+    Cards,
+    CardsEditConfig
  );
  
