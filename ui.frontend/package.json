@@ -34,7 +34,7 @@
     "enzyme-adapter-react-16": "^1.15.1",
     "sinon": "^7.5.0"
   },
-  "proxy": "http://localhost:4502",
+  "proxy": "http://localhost:14502",
   "browserslist": [
     "defaults"
   ],
