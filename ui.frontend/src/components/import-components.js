@@ -16,6 +16,7 @@
 
 import './Page/Page';
 import './Text/Text';
+import './Custom/Custom';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 

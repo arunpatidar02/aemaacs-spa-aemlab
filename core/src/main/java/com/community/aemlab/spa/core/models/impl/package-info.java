@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.community.aemlab.spa.core.models;
+package com.community.aemlab.spa.core.models.impl;
 
 import org.osgi.annotation.versioning.Version;
