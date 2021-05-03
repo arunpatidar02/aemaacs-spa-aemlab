@@ -215,7 +215,7 @@
                                                 sling:resourceType="cq/gui/components/coral/common/form/pagefield"
                                                 fieldDescription="Link applied to cards elements. URL or path to a content page."
                                                 fieldLabel="Link"
-                                                name="./cards/linkURL"
+                                                name="./cta/linkURL"
                                                 rootPath="/content/aemlab-spa"/>
                                             <linkText
                                                 jcr:primaryType="nt:unstructured"
@@ -223,7 +223,7 @@
                                                 emptyText="Text"
                                                 fieldDescription="Link Text for cards elements."
                                                 fieldLabel="Link Text"
-                                                name="./cards/linkText"/>
+                                                name="./cta/linkText"/>
                                         </items>
                                     </column>
                                 </items>
