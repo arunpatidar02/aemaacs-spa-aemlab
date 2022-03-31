@@ -9,3 +9,13 @@
 .customgrid-container{
     background-color: #ebfafc;
 }
+
+.custom-col-layout-2{
+    max-width: 50%;
+}
+.custom-col-layout-3{
+    max-width: 33%;
+}
+.custom-component-message{
+    text-align: center;
+}

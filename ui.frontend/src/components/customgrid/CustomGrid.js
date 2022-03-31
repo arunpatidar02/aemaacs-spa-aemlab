@@ -27,7 +27,7 @@ export class CustomGrid extends ResponsiveGrid {
      */
     get containerProps() {
         let containerProps = super.containerProps;
-        containerProps.className = (containerProps.className || '') + ' customgrid-container ' +  this.props.gridLayout + '-custom-col-layout';
+        containerProps.className = (containerProps.className || '') + ' customgrid-container customgrid-container-' +  this.props.gridLayout;
         return containerProps;
     }
 
@@ -50,12 +50,15 @@ export class CustomGrid extends ResponsiveGrid {
             let className='customgrid_child-container-'+layoutCount+'-'+i;
             list.push(<div className={ className }>{ super.childComponents }{ super.placeholderComponent }</div>);
         } */
+       let layoutCount = this.props.gridLayout ? this.props.gridLayout : 1;
+       let className = "customgrid_child-container custom-col-layout-"+layoutCount;
+
         return (
             <div {...this.containerProps}>
-                <div className="custom-message">Custom Grid!</div>
-                <div className="customgrid_title">{this.props.title}</div>
+                <h3 className="custom-component-message">Custom Grid!</h3>
+                <p className="customgrid_title">{this.props.title}</p>
                 <div className="customgrid_description">{this.description}</div>
-                <div className="customgrid_child-container">
+                <div className={className}>
                     { super.childComponents }
                     { super.placeholderComponent }
                 </div>
