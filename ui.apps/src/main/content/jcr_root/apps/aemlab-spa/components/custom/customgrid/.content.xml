@@ -3,5 +3,5 @@
     jcr:primaryType="cq:Component"
     cq:isContainer="{Boolean}true"
     sling:resourceSuperType="core/wcm/components/container/v1/container"
-    jcr:title="My Grid"
+    jcr:title="Custom Grid"
     componentGroup="AEM SPA - Content"/>

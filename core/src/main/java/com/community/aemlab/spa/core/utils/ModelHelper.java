@@ -7,14 +7,13 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
 import org.apache.sling.api.resource.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ModelHelper {
 
-	private static final Logger log = LoggerFactory.getLogger(ModelHelper.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(ModelHelper.class);
 
 	/**
 	 * @param resource
