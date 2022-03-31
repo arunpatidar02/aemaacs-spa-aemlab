@@ -21,6 +21,7 @@ import './CardItem/CardItem';
 import './Cards/Cards';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
+import './mygrid/MyGrid';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
