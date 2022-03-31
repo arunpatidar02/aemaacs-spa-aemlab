@@ -3,14 +3,8 @@
     jcr:primaryType="nt:unstructured"
     cardLayout="2-col"
     layout="responsiveGrid">
-    <item_1
+    <cardgrid
         jcr:primaryType="nt:unstructured"
-        jcr:title="Card 1"
-        sling:resourceType="aemlab-spa/components/custom/cards/card-item"
-        layout="responsiveGrid"/>
-    <item_2
-        jcr:primaryType="nt:unstructured"
-        jcr:title="Card 2"
-        sling:resourceType="aemlab-spa/components/custom/cards/card-item"
+        sling:resourceType="aemlab-spa/components/container"
         layout="responsiveGrid"/>
 </jcr:root>

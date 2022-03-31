@@ -1,5 +1,5 @@
-import { MapTo } from '@adobe/aem-react-editable-components';
-import React, { Component } from 'react';
+import { ResponsiveGrid, MapTo, withComponentMappingContext } from '@adobe/aem-react-editable-components';
+import React from 'react';
 import DOMPurify from 'dompurify';
 import extractModelId from '../../utils/extract-model-id';
 
@@ -14,7 +14,7 @@ const CardsEditConfig = {
     emptyLabel: 'Cards',
 
     isEmpty: function (props) {
-        return !props || !props.cardTitle || !props.cardDescription || !props.cardLink;
+        return !props || !props.cardTitle || !props.cardDescription || !props.cardLink || !props.cqItemsOrder || props.cqItemsOrder.length === 0;
     }
 };
 
@@ -22,7 +22,7 @@ const CardsEditConfig = {
  * Cards React component
  */
 
-class Cards extends Component {
+class Cards extends ResponsiveGrid {
     get description() {
         return (
             <div
@@ -39,12 +39,21 @@ class Cards extends Component {
         return this.props.cardLink ? <a href={this.props.cardLink.linkURL}>{this.props.cardLink.linkText}</a> : "";
     }
 
+    get containerProps() {
+        let containerProps = super.containerProps;
+        containerProps.className = (containerProps.className || '') + ' cards-chilld-container ' +  this.props.gridClassNames;
+        return containerProps;
+    }
+
     render() {
         return (
             <div className="cards_container">
                 <div className="cards_title">{this.props.cardTitle}</div>
                 <div className="cards_description">{this.description}</div>
-
+                <div {...this.containerProps}>
+                    { super.childComponents }
+                    { super.placeholderComponent }
+                </div>
                 <div className="cards_cta">{this.cta}</div>
             </div>
         );
@@ -53,5 +62,6 @@ class Cards extends Component {
 
 export default MapTo('aemlab-spa/components/custom/cards')(
     Cards,
+    withComponentMappingContext(Cards), 
     CardsEditConfig
 );
